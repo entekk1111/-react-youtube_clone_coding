@@ -43,7 +43,7 @@ class Body extends Component {
           this.setState(state);
         }
 
-        console.log(this.state);
+        //console.log(this.state);
       })
       .catch((error) => console.log("error", error));
 
